@@ -7,7 +7,7 @@ A Sphinx extension for building self-hosted versioned documentation.
 Project Links
 =============
 
-* Source code: https://github.com/Holzhaus/sphinx-multiversion
+* Source code: https://hd21749b.github.io/docs/
 
 .. toctree::
     :maxdepth: 3

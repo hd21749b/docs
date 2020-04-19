@@ -2,7 +2,7 @@
 """Sphinx configuration file."""
 import time
 
-author = "Jan Holthuis"
+author = "hd21749b"
 project = "sphinx-multiversion"
 release = "0.1.1"
 version = "0.1"
@@ -30,4 +30,11 @@ html_sidebars = {
     ],
 }
 
+html_theme = "sphinx_rtd_theme"
+html_theme_path = ["_themes", ]
+html_theme_options = {
+    'logo_only': True,
+    'navigation_depth': 5,
+}
+html_logo = "_static/hd21749b.svg"
 mv_remote_whitelist = r"^origin$"
